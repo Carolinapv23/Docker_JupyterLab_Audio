@@ -1,0 +1,14 @@
+name: Audio
+channels:
+  - defaults
+dependencies:
+  - ipywidgets
+  - ipykernel
+  - python=3
+  - numpy
+  - matplotlib
+  - pandas
+  - tqdm
+  - pip:
+    - scikit-maad
+    - openpyxl
